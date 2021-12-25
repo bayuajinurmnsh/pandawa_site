@@ -1,0 +1,378 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Navbar */
+#myNavbar {
+  overflow: hidden;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  padding: 20px 20px;
+}
+
+.nav-item.nav-link.txt-a-cls {
+  color: white;
+}
+
+.nav-logo {
+  width: 110px;
+  height: auto;
+}
+
+.nav-item.nav-link.txt-a-cls:hover,
+.nav-item.nav-link.txt-a-cls:focus {
+  color: #ffd700;
+}
+.nav-item.nav-link.txt-a-cls.active {
+  color: #ffd700;
+}
+/* End Navbar */
+
+/* Carousel */
+.row-carousel {
+  width: auto;
+}
+
+.image_carousel,
+#carouselExampleControls {
+  background-size: auto;
+  width: 100%;
+  height: 20%;
+}
+
+.MASK {
+  width: 100%;
+  margin-top: -60%;
+  opacity: 70%;
+  background-color: #212529;
+  padding: 12% 0 0 10%;
+}
+.mask-content {
+  margin-top: 60px;
+}
+
+.title-1 {
+  font-size: 60pt;
+  font-family: sans-serif;
+}
+.set-padding {
+  margin-top: -3%;
+}
+.text-1 {
+  font-size: 18pt;
+  font-family: sans-serif;
+}
+.color-gold {
+  color: #ffd700;
+}
+.color-white {
+  color: white;
+}
+.mask-button {
+  margin: 0;
+  padding: 0;
+}
+.mask-button a {
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.btnorder-now {
+  font-size: 25pt;
+}
+
+.btncontact-us {
+  font-size: 25pt;
+}
+
+.btncontact-us:hover,
+.btnorder-now:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+/* End Carousel */
+
+/* Products */
+.row-products {
+  margin: auto;
+  padding: 2% 0 0 3%;
+  background-color: black;
+  color: white;
+}
+
+.gambar-product,
+.deskripsi-product {
+  padding: 5% 5% 5% 0;
+  border-radius: 20px;
+  background-color: #212529;
+  color: white;
+}
+
+.image_carousel2 {
+  background-size: auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.items {
+  padding-top: 20px;
+  width: 60%;
+  margin: auto;
+}
+
+.product-name {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #5f6974;
+}
+
+.specs {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18pt;
+}
+.p-variable,
+.p-value {
+  font-size: 16pt;
+}
+
+/* End Products */
+
+/* About */
+.title-about {
+  font-size: 40pt;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.with-margin {
+  margin: 40px 0 0 0;
+}
+
+.body-text {
+  font-size: 16pt;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.designAbout {
+  width: 6%;
+  height: 6%;
+  margin-left: 94%;
+  margin-bottom: 5px;
+}
+
+/* End About */
+
+/* Values */
+.values {
+  background-color: #111111;
+}
+.value-title {
+  margin: 20px 0 0 90px;
+}
+
+.value-item {
+  margin-left: 10%;
+}
+
+.value-img {
+  width: 50%;
+  height: auto;
+}
+
+.img-title {
+  color: white;
+  text-align: center;
+  margin-left: -50%;
+}
+/* End Values */
+
+/* Our Teams */
+.our-teams {
+  background-color: #212529;
+  color: white;
+}
+
+.foto-1 {
+  color: black;
+  padding-top: 50px;
+  margin: 5% 10% 0 10%;
+}
+
+.foto-2 {
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  margin: 5% 20% 0 20%;
+}
+
+/* End Our Teams */
+
+/* Footer */
+.footer {
+  background-color: rgb(124, 124, 124);
+}
+
+.center {
+  margin: 0 50% 0 30%;
+}
+
+.footer-img-left {
+  background-color: red;
+}
+
+.get-in-touch {
+  margin-top: 1%;
+}
+
+/* End of Footer */
+
+/* WA */
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+/* End WA */
+
+@media only screen and (max-width: 990px) {
+  .nav-logo {
+    width: 100px;
+    height: auto;
+  }
+  .title-1 {
+    font-size: 40pt;
+    font-family: sans-serif;
+  }
+  .text-1 {
+    font-size: 18pt;
+    font-family: sans-serif;
+  }
+  .btnorder-now {
+    font-size: 15pt;
+  }
+
+  .btncontact-us {
+    font-size: 15pt;
+  }
+
+  .p-variable,
+  .p-value {
+    font-size: 13pt;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav-logo {
+    width: 90px;
+    height: auto;
+  }
+  .title-1 {
+    font-size: 30pt;
+    font-family: sans-serif;
+  }
+  .text-1 {
+    font-size: 12pt;
+    font-family: sans-serif;
+  }
+  .btnorder-now {
+    font-size: 12pt;
+  }
+
+  .btncontact-us {
+    font-size: 12pt;
+  }
+
+  .nav-item {
+    font-size: 10pt;
+  }
+
+  .p-variable,
+  .p-value {
+    font-size: 11pt;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .nav-logo {
+    width: 80px;
+    height: auto;
+  }
+  .title-1 {
+    font-size: 20pt;
+    font-family: sans-serif;
+  }
+  .text-1 {
+    font-size: 8pt;
+    font-family: sans-serif;
+  }
+  .btnorder-now {
+    font-size: 8pt;
+  }
+
+  .btncontact-us {
+    font-size: 8pt;
+  }
+
+  .nav-item {
+    font-size: 10pt;
+  }
+  .p-variable,
+  .p-value {
+    font-size: 8pt;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .nav-logo {
+    width: 70px;
+    height: auto;
+  }
+  .title-1 {
+    font-size: 14pt;
+    font-family: sans-serif;
+  }
+  .text-1 {
+    font-size: 8pt;
+    font-family: sans-serif;
+  }
+  .btnorder-now {
+    font-size: 8pt;
+  }
+
+  .btncontact-us {
+    font-size: 6pt;
+  }
+
+  .nav-item {
+    font-size: 10pt;
+  }
+  .p-variable,
+  .p-value {
+    font-size: 6pt;
+  }
+}
